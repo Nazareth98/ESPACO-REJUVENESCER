@@ -4,8 +4,8 @@ import SimpleImageSlider from "react-simple-image-slider";
 const Slider = (props) => {
   return (
     <SimpleImageSlider
-      width={500}
-      height={500}
+      width={props.width}
+      height={props.height}
       images={props.images}
       showBullets={true}
       showNavs={true}

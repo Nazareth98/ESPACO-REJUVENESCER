@@ -7,7 +7,7 @@ import fullLogoGold from "../assets/fullLogoGold.png";
 const Home = () => {
   return (
     <div className="w-full md:h-[50rem] h-[30rem] home-bg">
-      <div className="xl:w-5/6 w-full h-full m-auto flex flex-row justify-end items-center bg-[#252525c6] md:bg-transparent">
+      <div className="xl:w-4/6 w-full h-full m-auto flex flex-row justify-end items-center bg-[#252525c6] md:bg-transparent">
         <div className="md:w-1/2 w-full text-center md:p-10">
           <img
             src={window.innerWidth <= 770 ? fullLogoGold : fullLogo}

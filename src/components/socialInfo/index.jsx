@@ -9,12 +9,12 @@ const FindUsInfo = (props) => {
           {props.titulo}
         </h3>
       </div>
-      <div className="px-5 py-2">
+      <div className="px-5 py-1">
         <ul>
           {props.lista.map((item) => (
-            <li key={item.id} className="flex flex-row items-center">
+            <li key={item.id} className="flex flex-row items-center p-1">
               <img src={item.icon} alt="" />
-              <a href={item.url} className="ml-2 text-md text-slate-600">
+              <a href={item.url} className="ml-2 mt-1 md:mt-0 text-md text-slate-600">
                 {item.content}
               </a>
             </li>

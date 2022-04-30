@@ -27,7 +27,7 @@ const Products = () => {
 
   return (
     <div className="w-full md:h-[40rem]">
-      <div className="xl:w-5/6 w-full h-full m-auto">
+      <div className="xl:w-4/6 w-full h-full m-auto">
         <Subtitle value="Nossos Produtos" />
         <div className="flex justify-around flex-col md:flex-row items-center">
           {produtos.map((produto) => {

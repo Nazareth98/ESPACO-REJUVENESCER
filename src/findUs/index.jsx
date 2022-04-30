@@ -12,12 +12,14 @@ import arrow from "../assets/arrow.svg";
 import Slider from "../components/slider";
 
 const FindUs = () => {
+  const mobileScreen = window.innerWidth
+
   const infoList = {
     faleConosco: [
       {
         id: 1,
         content:
-          "Av. República Argentina, 3339 - Campos do Iguacu, Foz do Iguaçu - PR, 85857-118",
+          "Av. República Argentina, 3339 - Campos do Iguacu",
         icon: location,
         url: "/",
       },
@@ -73,12 +75,11 @@ const FindUs = () => {
   return (
     <div className="w-full md:h-[50rem]">
       <Subtitle value="Onde Nos Encontrar" />
-      <div className="xl:w-5/6 w-full m-auto flex flex-row">
-        <div className="w-1/2 h-50 p-10">
-          {/*<img className="w-full rounded-md" src={nosEncontre} alt="" />*/}
-          <Slider images={images} />
+      <div className="xl:w-4/6 w-full m-auto flex md:flex-row flex-col justify-center bg-slate-100 rounded-3xl shadow-md">
+        <div className="md:h-50 md:p-10 m-auto py-8">
+          <Slider images={images} width = {mobileScreen < 1280 ? 370 : 500} height = {mobileScreen < 1280 ? 370 : 500}/>
         </div>
-        <div className="w-1/2 h-50 p-10 flex flex-col justify-evenly">
+        <div className="md:w-1/2 h-50 md:p-10 p-2 flex flex-col justify-evenly">
           <div>
             <FindUsInfo
               titulo="Fale conosco"

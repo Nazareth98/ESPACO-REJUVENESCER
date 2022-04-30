@@ -17,7 +17,7 @@ const Header = () => {
   return (
     <header>
       <div className="bg-white shadow-md w-full fixed top-0 left-0 z-10">
-        <div className="md:m-auto xl:w-5/6 md:flex items-center justify-between  py-4 md:px-10 px-7">
+        <div className="md:m-auto xl:w-4/6 md:flex items-center justify-between  py-4 md:px-10 px-7">
           <div className="cursor-pointer flex items-center">
             <span>
               <img className="h-12 md:h-20" src={marca} alt="" />
