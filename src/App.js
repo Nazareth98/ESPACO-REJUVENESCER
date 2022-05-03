@@ -4,6 +4,7 @@ import FindUs from './findUs';
 import Header from './header';
 import Home from './home';
 import Products from './products';
+import ScheduleForm from './scheduleForm';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
      <Home /> 
      <Products />
      <FindUs />
+     <ScheduleForm />
     </div>
   );
 }
