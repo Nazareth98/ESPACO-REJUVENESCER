@@ -9,7 +9,7 @@ const FindUsInfo = (props) => {
           {props.titulo}
         </h3>
       </div>
-      <div className="px-5 py-1">
+      <div className="pl-5 py-1">
         <ul>
           {props.lista.map((item) => (
             <li key={item.id} className="flex flex-row items-center p-1">
