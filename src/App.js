@@ -1,4 +1,5 @@
 import React from 'react';
+import About from './about/indes';
 import './App.css';
 import FindUs from './findUs';
 import Header from './header';
@@ -14,6 +15,7 @@ function App() {
      <Products />
      <FindUs />
      <ScheduleForm />
+     <About />
     </div>
   );
 }
