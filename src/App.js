@@ -1,5 +1,5 @@
 import React from 'react';
-import About from './about/indes';
+import About from './about/index';
 import './App.css';
 import FindUs from './findUs';
 import Header from './header';
