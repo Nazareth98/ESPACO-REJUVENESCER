@@ -5,11 +5,13 @@ import menu from "../assets/menu.svg";
 import close from "../assets/close.svg";
 
 const Header = () => {
+
+
   const links = [
-    { name: "Inicio", link: "/" },
-    { name: "Serviços", link: "/" },
-    { name: "Nos encontre", link: "/" },
-    { name: "Sobre", link: "/" },
+    { name: "Inicio", link: "#home" },
+    { name: "Serviços", link: "#products" },
+    { name: "Fale Conosco", link: "#find-us" },
+    { name: "Sobre", link: "#about" },
   ];
 
   const [open, setOpen] = React.useState(false);
@@ -30,7 +32,7 @@ const Header = () => {
             <img src={open ? close : menu} alt="" />
           </div>
           <ul
-            className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-white md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease ${
+            className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-white md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-300 ease ${
               open ? "top-20 opacity-100" : "top-[-490px]"
             } md:opacity-100 opacity-0`}
           >
@@ -39,14 +41,14 @@ const Header = () => {
                 <li key={link.name} className="md:mx-4 text-xl md:my-0 my-7">
                   <a
                     href={link.link}
-                    className="text-gray-800 hover:text-gray-400 duration-300"
+                    className="text-gray-800 hover:text-[#AB8966] duration-300"
                   >
                     {link.name}
                   </a>
                 </li>
               );
             })}
-            <Button name="agendamentos" />
+            <Button link ="https://api.whatsapp.com/send?phone=5545984070668&text=Ol%C3%A1%2C%20gostaria%20de%20tirar%20algumas%20d%C3%BAvidas!" name="agendamentos" />
           </ul>
         </div>
       </div>

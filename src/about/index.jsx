@@ -6,7 +6,7 @@ import instagram from "../assets/instagram.svg";
 
 const About = () => {
   return (
-    <div className='w-full md:h-[20rem] py-10'>
+    <div id='about' className='w-full md:h-[20rem] py-10'>
         <div className='xl:w-4/6 w-full h-full m-auto flex flex-col md:flex-row'>
             <div className='md:w-1/4 p-2 text-sm text-slate-500'>
                 <div>

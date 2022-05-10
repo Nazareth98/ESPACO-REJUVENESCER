@@ -4,7 +4,7 @@ import Button from '../components/button/index'
 
 const ScheduleForm = () => {
   return (
-    <div className='w-full h-20 bg-[#e6c69d90] sticky bottom-0 mt-3'>
+    <div className='w-full h-20 bg-[#e3caa9] sticky bottom-0 mt-3'>
         <div className='xl:w-4/6 w-full h-full m-auto flex flex-row items-center justify-around py-4'>
             <div className='lg:w-1/4 p-2'>
                 <p className='lg:text-lg text-[#AB8966]'>Agende sua <span className='font-bold'>avaliação gratuita!</span></p>

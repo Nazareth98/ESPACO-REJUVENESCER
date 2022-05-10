@@ -19,15 +19,15 @@ const FindUs = () => {
       {
         id: 1,
         content:
-          "Av. República Argentina, 3339 - Campos do Iguacu",
+          "R. Rui Barbosa, 2126 - Vila Bom Jesus",
         icon: location,
         url: "/",
       },
       {
         id: 2,
-        content: "(45) 99855-0838",
+        content: "(45) 98407-0668",
         icon: whatsapp,
-        url: "/",
+        url: "https://api.whatsapp.com/send?phone=5545984070668&text=Ol%C3%A1%2C%20gostaria%20de%20tirar%20algumas%20d%C3%BAvidas!",
       },
       {
         id: 3,
@@ -73,13 +73,18 @@ const FindUs = () => {
   ];
 
   return (
-    <div className="w-full md:h-[50rem]">
+    <div id="find-us" className="w-full md:h-[50rem]">
       <Subtitle value="Onde Nos Encontrar" />
       <div className="xl:w-4/6 w-full m-auto flex md:flex-row flex-col justify-center ">
         <div className="md:h-50 md:p-10 m-auto py-8">
           <Slider images={images} width = {mobileScreen < 1280 ? 370 : 500} height = {mobileScreen < 1280 ? 370 : 500}/>
         </div>
-        <div className="md:w-1/2 h-50 md:p-10 p-2 flex flex-col justify-evenly bg-slate-100 rounded-3xl shadow-md">
+        <div className="md:w-1/2 h-50 md:p-10 p-2 flex flex-col justify-between bg-slate-100 rounded-3xl shadow-md">
+          <div>
+            <h2 className="text-2xl font-bold  text-center">
+              Rejuvenescer - Foz do Iguaçu
+            </h2>
+          </div>
           <div>
             <FindUsInfo
               titulo="Fale conosco"

@@ -14,7 +14,7 @@ const FindUsInfo = (props) => {
           {props.lista.map((item) => (
             <li key={item.id} className="flex flex-row items-center p-1">
               <img src={item.icon} alt="" />
-              <a href={item.url} className="ml-2 mt-1 md:mt-0 text-md text-slate-600">
+              <a target="_blank" rel="noreferrer" href={item.url} className="ml-2 mt-1 md:mt-0 text-md text-slate-600">
                 {item.content}
               </a>
             </li>
