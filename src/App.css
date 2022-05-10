@@ -10,6 +10,22 @@
     scroll-behavior: smooth;
 }
 
+.ativo {
+    animation: show .5s forwards;
+}
+/*animation: show .5s forwards;*/
+
+@keyframes show {
+    from {
+        opacity: 0;
+        transform: translate3d(-30px, 0, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
 /*
 font-family: 'Plus Jakarta Sans', sans-serif;
 font-family: 'Poppins', sans-serif;
