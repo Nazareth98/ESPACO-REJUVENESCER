@@ -16,7 +16,7 @@ const About = () => {
                     <p>Av. República Argentina, 3339 - Campos do Iguacu, Foz do Iguaçu - PR, 85857-118</p>
                 </div>
                 <div className='py-2'>
-                    <p>CNPJ: 40.774.357/0001-41</p>
+                    <p>CNPJ: 38.300.838/0001-73</p>
                 </div>
                 <div className='flex py-2'>
                     <div><a href="/"><img src={whatsapp} alt="" srcset="" /></a></div>
@@ -28,9 +28,9 @@ const About = () => {
             <div className='md:w-1/4 p-2 mt-2 md:mt-0'>
                 <h3 className='pb-2 text-lg text-[#AB8966] font-bold '>Menu</h3>
                 <ul>
-                    <li ><a className='py-1 text-sm text-slate-500 hover:text-[#E6C69D] transition-all duration-200' href="/">Inicio</a></li>
-                    <li><a className='py-1 text-sm text-slate-500 hover:text-[#E6C69D] transition-all duration-200' href="/">Procedimentos</a></li>
-                    <li><a className='py-1 text-sm text-slate-500 hover:text-[#E6C69D] transition-all duration-200' href="/">Fale Conosco</a></li>
+                    <li ><a className='py-1 text-sm text-slate-500 hover:text-[#E6C69D] transition-all duration-200' href="#home">Inicio</a></li>
+                    <li><a className='py-1 text-sm text-slate-500 hover:text-[#E6C69D] transition-all duration-200' href="#products">Procedimentos</a></li>
+                    <li><a className='py-1 text-sm text-slate-500 hover:text-[#E6C69D] transition-all duration-200' href="#find-us">Fale Conosco</a></li>
                 </ul>
             </div>
 

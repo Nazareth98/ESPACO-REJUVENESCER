@@ -31,7 +31,7 @@ const FindUs = () => {
       },
       {
         id: 3,
-        content: "patrickn.contact@gmail.com",
+        content: "rejuvenescerfoz@hotmail.com",
         icon: email,
         url: "/",
       },
@@ -39,13 +39,13 @@ const FindUs = () => {
     socialMedia: [
       {
         id: 1,
-        content: "Patrick Nazareth",
+        content: "Rejuvenescer",
         icon: facebook,
         url: "/",
       },
       {
         id: 2,
-        content: "Patrick Nazareth",
+        content: "Rejuvenescer",
         icon: instagram,
         url: "/",
       },
@@ -53,16 +53,10 @@ const FindUs = () => {
     horarios: [
       {
         id: 1,
-        content: "Segunda a Sexta: das 08h as 20h",
+        content: "Segunda a Sexta: das 08h as 18h30",
         icon: clock,
         url: "/",
-      },
-      {
-        id: 2,
-        content: "Sábado: das 08h as 12h",
-        icon: clock,
-        url: "/",
-      },
+      }
     ],
   };
 
@@ -101,7 +95,7 @@ const FindUs = () => {
           </div>
           <div>
             <FindUsInfo
-              titulo="Horários de funcionamento"
+              titulo="Horário de funcionamento"
               lista={infoList.horarios}
               img={arrow}
             />

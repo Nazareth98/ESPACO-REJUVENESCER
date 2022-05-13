@@ -1,9 +1,9 @@
-import React from 'react'
-
+import React from 'react';
+import './styles.css'
 
 const Button = (props) => {
   return (
-    <a href={props.link} target="_blank"><button className="hover:bg-[#AB8966] bg-[#E6C69D] rounded-full  text-white py-2 px-6 duration-300 ">{props.name}</button></a>
+    <div id='container'><a href={props.link} target="_blank"><button className="hover:bg-[#AB8966] bg-[#E6C69D] rounded-full  text-white py-3 pl-4 pr-10 duration-300 "><span id='btn'>{props.name}</span></button></a></div>
   )
 }
 

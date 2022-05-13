@@ -1,6 +1,9 @@
 import React, { useRef } from "react";
 import Card from "../components/cards/index";
 import genericImg from "../assets/genericCard.jpg";
+import Botox from "../assets/botox.jpg";
+import Subcisao from "../assets/subcisao.jpg";
+import Preenchimento from "../assets/preenchimento.jpg";
 import Subtitle from "../components/subTitle";
 
 const Products = () => {
@@ -10,19 +13,19 @@ const Products = () => {
       name: "Preenchimento Labial",
       description:
         "Indicada para combater sinais de envelhecimento da pele, tal como flacidez, linhas de expressão dentre outros.",
-      img: genericImg,
+      img: Preenchimento,
     },
     {
       name: "Subcisão Facial",
       description:
         "Essa técnica corrige alterações relacionadas ao relevo da pele, como cicatrizes, rugas ou linhas de expressão.",
-      img: genericImg,
+      img: Subcisao,
     },
     {
       name: "Botox",
       description:
         "Rejuvenescimento facial na região da testa ou lateral dos olhos ou glabela.",
-      img: genericImg,
+      img: Botox,
     },
   ];
 
