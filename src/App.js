@@ -10,7 +10,7 @@ import ScheduleForm from './scheduleForm';
 
 function App() {
   return (
-    <div className='bg-gray-200 w-full'>
+    <div className='bg-gray-100 w-full'>
      <Header />
      <Home /> 
      <Products />
