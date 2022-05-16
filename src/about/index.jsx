@@ -13,7 +13,7 @@ const About = () => {
                     <a href="/"><img src={logo} alt="" className='w-4/6 m-auto'/></a>
                 </div>
                 <div className='py-2'>
-                    <p>Av. República Argentina, 3339 - Campos do Iguacu, Foz do Iguaçu - PR, 85857-118</p>
+                    <p>R. Rui Barbosa, 2126 - Vila Bom Jesus</p>
                 </div>
                 <div className='py-2'>
                     <p>CNPJ: 38.300.838/0001-73</p>
