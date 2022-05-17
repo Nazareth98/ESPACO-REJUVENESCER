@@ -1,5 +1,5 @@
 import React from 'react';
-import About from './about/index';
+import Footer from './footer/index';
 import './App.css';
 import Creditos from './creditos';
 import FindUs from './findUs';
@@ -16,7 +16,7 @@ function App() {
      <Products />
      <FindUs />
      <ScheduleForm />
-     <About />
+     <Footer />
      <Creditos />
     </div>
   );

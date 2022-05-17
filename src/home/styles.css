@@ -1,8 +1,13 @@
+.home-gradiente {
+    background-image: linear-gradient(to bottom,transparent 93%, rgb(243 244 246));
+}
+
 .home-bg {
     background-image: url('../assets/bg-home.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 
 

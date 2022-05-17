@@ -10,9 +10,16 @@ import clock from "../assets/clock.svg";
 import FindUsInfo from "../components/socialInfo";
 import arrow from "../assets/arrow.svg";
 import Slider from "../components/slider";
+import Aos from "aos";
+import "aos/dist/aos.css";
+
 
 const FindUs = () => {
   const mobileScreen = window.innerWidth
+  
+  React.useEffect(() => {
+    Aos.init({duration: 1500});
+  }, [])
 
   const infoList = {
     faleConosco: [
@@ -67,33 +74,33 @@ const FindUs = () => {
   ];
 
   return (
-    <div id="find-us" className="w-full md:h-[50rem]">
+    <div data-aos='fade-up' id="find-us" className="w-full md:h-[50rem]">
       <Subtitle value="Onde Nos Encontrar" />
       <div className="xl:w-4/6 w-full m-auto flex md:flex-row flex-col justify-center ">
-        <div className="md:h-50 md:p-10 m-auto py-8">
+        <div data-aos='fade-up' data-aos-once="true" className="md:h-50 md:p-10 m-auto py-8">
           <Slider images={images} width = {mobileScreen < 1280 ? 370 : 500} height = {mobileScreen < 1280 ? 370 : 500}/>
         </div>
-        <div className="md:w-1/2 h-50 md:p-10 p-2 flex flex-col justify-between bg-slate-100 rounded-3xl shadow-md">
+        <div data-aos='fade-up' data-aos-once="true" data-aos-duration='1700' className="md:w-1/2 h-50 md:p-10 p-2 flex flex-col justify-between bg-slate-100 rounded-3xl shadow-md">
           <div>
-            <h2 className="text-2xl font-bold  text-center">
+            <h2 className="text-2xl font-bold  text-center mb-2">
               Rejuvenescer - Foz do Iguaçu
             </h2>
           </div>
-          <div>
+          <div data-aos='fade-up' data-aos-duration='1900'>
             <FindUsInfo
               titulo="Fale conosco"
               lista={infoList.faleConosco}
               img={arrow}
             />
           </div>
-          <div>
+          <div data-aos='fade-up' data-aos-duration='1900'>
             <FindUsInfo
               titulo="Redes Sociais"
               lista={infoList.socialMedia}
               img={arrow}
             />
           </div>
-          <div>
+          <div data-aos='fade-up' data-aos-duration='1900'>
             <FindUsInfo
               titulo="Horário de funcionamento"
               lista={infoList.horarios}
