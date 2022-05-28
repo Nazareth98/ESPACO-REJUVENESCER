@@ -28,7 +28,7 @@ const FindUs = () => {
         content:
           "R. Rui Barbosa, 2126 - Vila Bom Jesus",
         icon: location,
-        url: "/",
+        url: "https://www.google.com.br/maps/place/R.+Rui+Barbosa,+2126+-+Vila+Bom+Jesus,+Foz+do+Igua%C3%A7u+-+PR,+85852-120/@-25.5389425,-54.5741244,17z/data=!3m1!4b1!4m5!3m4!1s0x94f690539d17b1d5:0x786e4c74b6acb49!8m2!3d-25.5389474!4d-54.5719357",
       },
       {
         id: 2,
@@ -48,13 +48,13 @@ const FindUs = () => {
         id: 1,
         content: "Rejuvenescer",
         icon: facebook,
-        url: "/",
+        url: "https://www.facebook.com/draraissaraldi/",
       },
       {
         id: 2,
         content: "Rejuvenescer",
         icon: instagram,
-        url: "/",
+        url: "https://www.instagram.com/raissa_araldi.odontologia/",
       },
     ],
     horarios: [

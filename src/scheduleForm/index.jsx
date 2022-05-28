@@ -15,7 +15,7 @@ const ScheduleForm = () => {
                 <Input type="tel" placeholder="Seu Telefone"/>
             </div>
             <div className='lg:w-1/6 text-center p-2'>
-                <Button name= "Agendar"/>
+                <Button link="https://api.whatsapp.com/send?phone=5545984070668&text=Ol%C3%A1%2C%20gostaria%20de%20tirar%20algumas%20d%C3%BAvidas!" name= "Agendar"/>
             </div>
         </div>
     </div>

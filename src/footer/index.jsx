@@ -33,9 +33,9 @@ const Footer = () => {
                     <p>CNPJ: 38.300.838/0001-73</p>
                 </div>
                 <div className='flex py-2'>
-                    <div><a href="/"><img src={whatsapp} alt="" srcSet="" /></a></div>
-                    <div  className='ml-1'><a href="/"><img src={instagram} alt="" srcSet="" /></a></div>
-                    <div  className='ml-1'><a href="/"><img src={facebook} alt="" srcSet="" /></a></div>
+                    <div><a href="https://api.whatsapp.com/send?phone=5545984070668&text=Ol%C3%A1%2C%20gostaria%20de%20tirar%20algumas%20d%C3%BAvidas!"><img src={whatsapp} alt="" srcSet="" /></a></div>
+                    <div  className='ml-1'><a href="https://www.instagram.com/raissa_araldi.odontologia/"><img src={instagram} alt="" srcSet="" /></a></div>
+                    <div  className='ml-1'><a href="https://www.facebook.com/draraissaraldi/"><img src={facebook} alt="" srcSet="" /></a></div>
                 </div>
             </div>
 
@@ -51,15 +51,15 @@ const Footer = () => {
             <div data-aos='fade-up' data-aos-once='true' data-aos-duration='1900' className='md:w-1/4 p-2 mt-2 md:mt-0'>
             <h3 className='pb-2 text-lg text-[#AB8966] font-bold '>Procedimentos</h3>
                 <ul>
-                    <li className='w-full'><a className='py-1 text-sm text-slate-500 hover:text-[#E6C69D] transition-all duration-200' href="/">Preenchimento Labial</a></li>
-                    <li><a className='py-1 text-sm text-slate-500 hover:text-[#E6C69D] transition-all duration-200' href="/">Subcisão Facial</a></li>
-                    <li><a className='py-1 text-sm text-slate-500 hover:text-[#E6C69D] transition-all duration-200' href="/">Botox</a></li>
+                    <li className='w-full'><a className='py-1 text-sm text-slate-500 hover:text-[#E6C69D] transition-all duration-200' href="#products">Preenchimento Labial</a></li>
+                    <li><a className='py-1 text-sm text-slate-500 hover:text-[#E6C69D] transition-all duration-200' href="#products">Subcisão Facial</a></li>
+                    <li><a className='py-1 text-sm text-slate-500 hover:text-[#E6C69D] transition-all duration-200' href="#products">Botox</a></li>
                 </ul>
             </div>
 
             <div data-aos='fade-up' data-aos-once='true' data-aos-duration='2100' className='md:w-1/4 max-h-72 mt-2 md:mt-0'>
                 <div className='w-full h-full'>
-                <iframe title= "teste" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d900.0426285050187!2d-54.576122370751165!3d-25.532696488852054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94f6905014c969f5%3A0x2d3db8b2e1396730!2sCataratas%20JL%20Shopping!5e0!3m2!1spt-BR!2sbr!4v1651707636538!5m2!1spt-BR!2sbr" width="100%" height="100%" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+                <iframe title= "teste" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3599.9830191525202!2d-54.574124384349766!3d-25.538942543460518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94f690539d17b1d5%3A0x786e4c74b6acb49!2sR.%20Rui%20Barbosa%2C%202126%20-%20Vila%20Bom%20Jesus%2C%20Foz%20do%20Igua%C3%A7u%20-%20PR%2C%2085852-120!5e0!3m2!1spt-BR!2sbr!4v1653613039052!5m2!1spt-BR!2sbr" width="100%" height="100%" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </div>

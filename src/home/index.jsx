@@ -28,7 +28,7 @@ const Home = () => {
               além do sorriso para outros tratamentos estéticos
             </p>
             <div data-aos="fade-up" data-aos-duration="2200" className="mt-5 md:text-right md:w-3/4 md:ml-auto">
-              <Button name="Agende seu avaliação" />
+              <Button link="https://api.whatsapp.com/send?phone=5545984070668&text=Ol%C3%A1%2C%20gostaria%20de%20tirar%20algumas%20d%C3%BAvidas!" name="Agende sua avaliação" />
             </div>
           </div>
         </div>
