@@ -2,8 +2,19 @@ import React from "react";
 import Card from "../components/cards/index";
 import Botox from "../assets/botox.jpg";
 import Subcisao from "../assets/subcisao.jpg";
-import Preenchimento from "../assets/preenchimentoLabial.jpg";
-import acupuntura from "../assets/acupuntura.jpg"
+import Preenchimento from "../assets/preenchimentoLabial.jpeg";
+import Acupuntura from "../assets/acupuntura.jpeg"
+import Celulite from "../assets/celulite.jpg"
+import Clareamento from "../assets/clareamento.jpeg"
+import Drenagem from "../assets/drenagemCorporal.jpeg"
+import Estrias from "../assets/enzimaEstrias.jpeg"
+import Facetas from "../assets/facetas.jpeg"
+import Sustentacao from "../assets/fiosSustentacao.jpeg"
+import Miofascial from "../assets/liberacaoMiofascial.jpeg"
+import Modeladora from "../assets/massagemModeladora.jpeg"
+import Quiropraxia from "../assets/quiropraxia.jpeg"
+import SkinBooster from "../assets/skinbooster.jpeg"
+import Ventosa from "../assets/ventosaTerapia.jpeg"
 
 
 
@@ -30,106 +41,106 @@ const Products = () => {
       show:true,
       name: "Preenchimento Labial",
       description:
-        "Procedimento feito com ácido hialurônico para proporcionar simetria aumentando o volume e definição os lábios",
+        "Procedimento feito com ácido hialurônico para proporcionar simetria aumentando o volume e definição os lábios.",
       img: Preenchimento,
     },
     {
       show:true,
       name: "Subcisão Facial",
       description:
-        "Essa técnica corrige alterações relacionadas ao relevo da pele, como cicatrizes, rugas ou linhas de expressão.",
+        "Potente bioestimulasor e o único que apresenta seus resultados em 30 dias corrige alterações da pele como cicatrizes rugas e linha de expressão.",
       img: Subcisao,
     },
     {
       show:true,
       name: "Botox",
       description:
-        "Rejuvenescimento facial na região da testa ou lateral dos olhos ou glabela.",
+        "Aplicação de toxina botulínica para relaxar a musculatura minimizando linhas de expressões dinâmicas auxilia no combate das rugas  e linhas de expressão.",
       img: Botox,
     },
     {
       show:show,
       name: "Fios de Sustentação",
       description:
-        "Promove estimulação de colágeno.",
-      img: generic,
+        "É um procedimento de rejuvenescimento facial não cirúrgico que passa os fios sob a superfície da pele para levantar o tecido  eles dão ao seu rosto uma aparência mais elevada e tonificada.",
+      img: Sustentacao,
     },
     {
       show:show,
       name: "Skinbooster",
       description:
-        "Hidratação profunda através de apliacação de ácido hialurônico.",
-      img: generic,
+        "hidratação profunda através do ácido hialurônico O procedimento trata rugas finas no rosto, melhora o aspecto das olheiras e das marcas de acne.",
+      img: SkinBooster,
     },
     {
       show:show,
       name: "Drenagem Corporal",
       description:
         "Indicada para reduzir retenção de líquido e toxinas que formam edema e inchaço.",
-      img:generic,
+      img:Drenagem,
     },
     {
       show:show,
       name: "Enzima Estria",
       description:
         "Melhora a aparencia das estrias.",
-      img: generic,
+      img: Estrias,
     },
     {
       show:show,
       name: "Enzima Celulite",
       description:
         "Redução da celulite.",
-      img:generic,
+      img:Celulite,
     },
     {
       show:show,
       name: "Massagem Modeladora Corporal",
       description:
         "Modelagem corporal por meio de técnicas de massganes e cremes redutores de medidas.",
-      img: generic,
+      img: Modeladora,
     },
     {
       show:show,
       name: "Massagem Relaxante / Ventosas",
       description:
         "Massagem que promove o relaxamento.",
-      img: generic,
+      img: Ventosa,
     },
     {
       show:show,
       name: "Quiropraxia",
       description:
-        "Alinhamento correto da coluna e outras partes do corpo. Isso, permite que dores sejam aliviadas, pois a tensão muscular da região e a pressão arterial diminuem",
-      img: generic,
+        "Alinhamento correto da coluna e outras partes do corpo. Isso, permite que dores sejam aliviadas, pois a tensão muscular da região e a pressão arterial diminuem.",
+      img: Quiropraxia,
     },
     {
       show:show,
       name: "Acupuntura",
       description:
         "Indicada para reduzir retenção de líquido e toxinas que formam edema e inchaço.",
-      img: generic,
+      img: Acupuntura,
     },
     {
       show:show,
       name: "Clareamento A Laser",
       description:
         "É uma forma rápida, segura e eficaz de recuperar a cor natural dos dentes, que foi perdida devido à maus hábitos aliados a uma higiene bucal deficiente. O procedimento deixa os dentes mais brancos, deixando seu sorriso muito mais bonito e harmônico.",
-      img: generic,
+      img: Clareamento,
     },
     {
       show:show,
       name: "Facetas de Resinas",
       description:
-        "Procedimento rapido sem desgate dos dentes e deixa um sorriso marcante",
-      img: generic,
+        "Procedimento rapido sem desgate dos dentes e deixa um sorriso marcante.",
+      img: Facetas,
     },
     {
       show:show,
       name: "Liberação Miofascial",
       description:
         "Técnica preventiva de lesões e alívio de dores musculares, que aplica pressão em alguns pontos do corpo a fim de liberar a fáscia.",
-      img:generic,
+      img:Miofascial,
     },
   ];
 

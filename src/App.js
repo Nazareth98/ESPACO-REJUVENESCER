@@ -12,7 +12,7 @@ function App() {
   return (
     <div className='bg-gray-100 w-full'>
      <Header />
-     <Home /> 
+     <Home />
      <Products />
      <FindUs />
      <ScheduleForm />
