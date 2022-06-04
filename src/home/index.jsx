@@ -23,9 +23,7 @@ const Home = () => {
               className="lg:w-2/3 w-4/5 md:mx-0 md:ml-auto mx-auto"
             />
             <p className="text-lg w-3/4 ml-auto md:block hidden text-right load-animation">
-              A marca é representada por um ícone da silueta de um rosto,
-              mostrando a principal área de trabalho do Centro Estético, que vai
-              além do sorriso para outros tratamentos estéticos
+          
             </p>
             <div data-aos="fade-up" data-aos-duration="2200" className="mt-5 md:text-right md:w-3/4 md:ml-auto">
               <Button link="https://api.whatsapp.com/send?phone=5545984070668&text=Ol%C3%A1%2C%20gostaria%20de%20tirar%20algumas%20d%C3%BAvidas!" name="Agende sua avaliação" />

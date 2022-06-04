@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "../components/cards/index";
 import Botox from "../assets/botox.jpg";
-import Subcisao from "../assets/subcisao.jpg";
+import Subincisao from "../assets/subcisao.jpg";
 import Preenchimento from "../assets/preenchimentoLabial.jpeg";
 import Acupuntura from "../assets/acupuntura.jpeg"
 import Celulite from "../assets/celulite.jpg"
@@ -15,6 +15,7 @@ import Modeladora from "../assets/massagemModeladora.jpeg"
 import Quiropraxia from "../assets/quiropraxia.jpeg"
 import SkinBooster from "../assets/skinbooster.jpeg"
 import Ventosa from "../assets/ventosaTerapia.jpeg"
+import Relaxante from "../assets/massagemRelaxante.jpg"
 
 
 
@@ -41,106 +42,113 @@ const Products = () => {
       show:true,
       name: "Preenchimento Labial",
       description:
-        "Procedimento feito com ácido hialurônico para proporcionar simetria aumentando o volume e definição os lábios.",
+        "Procedimento feito com ácido hialurônico para proporcionar simetria, aumentando o volume e definição os lábios.",
       img: Preenchimento,
     },
     {
       show:true,
-      name: "Subcisão Facial",
+      name: "Subincisão Facial",
       description:
-        "Potente bioestimulasor e o único que apresenta seus resultados em 30 dias corrige alterações da pele como cicatrizes rugas e linha de expressão.",
-      img: Subcisao,
+        "O único bioestumulador que apresenta seus resultados em 30 dias, corrigindo alterações na pele, como rugas, cicatrizes e linhas de expressão.",
+      img: Subincisao,
     },
     {
       show:true,
       name: "Botox",
       description:
-        "Aplicação de toxina botulínica para relaxar a musculatura minimizando linhas de expressões dinâmicas auxilia no combate das rugas  e linhas de expressão.",
+        "A toxina botulínica tem a função de relaxar a musculatura minimizando linhas de expressões, além de auxiliar no combate as rugas.",
       img: Botox,
     },
     {
       show:show,
       name: "Fios de Sustentação",
       description:
-        "É um procedimento de rejuvenescimento facial não cirúrgico que passa os fios sob a superfície da pele para levantar o tecido  eles dão ao seu rosto uma aparência mais elevada e tonificada.",
+        "É um procedimento de rejuvenescimento facial não cirúrgico, que passa os fios sobre a pele dando uma aparência mais elevada e tonificada.",
       img: Sustentacao,
     },
     {
       show:show,
       name: "Skinbooster",
       description:
-        "hidratação profunda através do ácido hialurônico O procedimento trata rugas finas no rosto, melhora o aspecto das olheiras e das marcas de acne.",
+        "Hidratação profunda através do ácido hialurônico. O procedimento trata rugas finas, melhora o aspecto das olheiras e marcas de acne.",
       img: SkinBooster,
     },
     {
       show:show,
       name: "Drenagem Corporal",
       description:
-        "Indicada para reduzir retenção de líquido e toxinas que formam edema e inchaço.",
+        "Indicada para reduzir retenção de líquido e toxinas que formam edemas e inchaço.",
       img:Drenagem,
     },
     {
       show:show,
-      name: "Enzima Estria",
+      name: "Tratamento de Estrias",
       description:
-        "Melhora a aparencia das estrias.",
+        "Conjunto  de procedimentos que melhora a aparência das estrias",
       img: Estrias,
     },
     {
       show:show,
-      name: "Enzima Celulite",
+      name: "Tratamento de Celulite",
       description:
-        "Redução da celulite.",
+        "Conjunto de procedimentos que reduz as celulites",
       img:Celulite,
     },
     {
       show:show,
       name: "Massagem Modeladora Corporal",
       description:
-        "Modelagem corporal por meio de técnicas de massganes e cremes redutores de medidas.",
+        "Massagem modeladora que por meio de técnicas e cremes reduz as medidas do corpo.",
       img: Modeladora,
     },
     {
       show:show,
-      name: "Massagem Relaxante / Ventosas",
+      name: "Massagem Relaxante",
       description:
-        "Massagem que promove o relaxamento.",
-      img: Ventosa,
+        "É indicada pra quem busca diminuir a tensão muscular o estresse diário, alivia dores do corpo e proporciona sensação de relaxamento",
+      img: Relaxante,
     },
     {
       show:show,
       name: "Quiropraxia",
       description:
-        "Alinhamento correto da coluna e outras partes do corpo. Isso, permite que dores sejam aliviadas, pois a tensão muscular da região e a pressão arterial diminuem.",
+        "Alinhamento correto da coluna e outras partes do corpo. Isso permite que dores sejam aliviadas.",
       img: Quiropraxia,
     },
     {
       show:show,
       name: "Acupuntura",
       description:
-        "Indicada para reduzir retenção de líquido e toxinas que formam edema e inchaço.",
+        "Seu maior efeito é reduzir a incidência de dores crônicas, como dores na lombar, articulações e enxaqueca.",
       img: Acupuntura,
     },
     {
       show:show,
       name: "Clareamento A Laser",
       description:
-        "É uma forma rápida, segura e eficaz de recuperar a cor natural dos dentes, que foi perdida devido à maus hábitos aliados a uma higiene bucal deficiente. O procedimento deixa os dentes mais brancos, deixando seu sorriso muito mais bonito e harmônico.",
+        "O procedimento deixa os dentes mais brancos, deixando seu sorriso muito mais bonito e harmônico.",
       img: Clareamento,
     },
     {
       show:show,
       name: "Facetas de Resinas",
       description:
-        "Procedimento rapido sem desgate dos dentes e deixa um sorriso marcante.",
+        "Procedimento rápido feito com resina sem desgate dos dentes, corrigindo formato e coloração dos dentes.",
       img: Facetas,
     },
     {
       show:show,
       name: "Liberação Miofascial",
       description:
-        "Técnica preventiva de lesões e alívio de dores musculares, que aplica pressão em alguns pontos do corpo a fim de liberar a fáscia.",
+        "Técnica preventiva de lesões e alívio de dores musculares, que aplica pressão em alguns pontos do corpo a fim de liberar a fáscia (muscular).",
       img:Miofascial,
+    },
+    {
+      show:show,
+      name: "Ventosa Terapia",
+      description:
+        "Trata diversos transtornos da saúde. Principal benéficio é o aumento da circulação sanguínea, amenizando a rigidez muscular e aliviando as dores no corpo.",
+      img:Ventosa,
     },
   ];
 
