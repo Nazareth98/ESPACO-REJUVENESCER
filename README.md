@@ -1,4 +1,4 @@
-<h1 align="center">Dogs</h1>
+<h1 align="center">Espaço Rejuvenescer</h1>
 
 <p align="center">Meu primeiro projeto profissional desnvolvido para um Centro Estético.</p>
 
