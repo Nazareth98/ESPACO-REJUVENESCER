@@ -63,7 +63,7 @@ const Products = () => {
       show:show,
       name: "Fios de Sustentação",
       description:
-        "É um procedimento de rejuvenescimento facial não cirúrgico, que passa os fios sobre a pele dando uma aparência mais elevada e tonificada.",
+        "É um procedimento de rejuvenescimento facial não cirúrgico, que passa os fios sob a pele dando uma aparência mais elevada e tonificada.",
       img: Sustentacao,
     },
     {
@@ -147,7 +147,7 @@ const Products = () => {
       show:show,
       name: "Ventosa Terapia",
       description:
-        "Trata diversos transtornos da saúde. Principal benéficio é o aumento da circulação sanguínea, amenizando a rigidez muscular e aliviando as dores no corpo.",
+        "Trata diversos transtornos da saúde. Principal beneficio é o aumento da circulação sanguínea, amenizando a rigidez muscular e aliviando as dores no corpo.",
       img:Ventosa,
     },
   ];
